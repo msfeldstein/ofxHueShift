@@ -33,5 +33,6 @@
 class ofxHueShift : public ofShader
 {
 public:
+    ofxHueShift();
     void setup();
 };

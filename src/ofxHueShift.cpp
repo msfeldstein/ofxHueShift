@@ -38,8 +38,9 @@ void main()
 }
 );
 
-void ofxHueShift::setup()
+ofxHueShift::ofxHueShift()
 {
+    ofShader();
     setupShaderFromSource(GL_FRAGMENT_SHADER, shiftShaderFragment);
     linkProgram();
 }
